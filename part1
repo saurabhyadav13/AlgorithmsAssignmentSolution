@@ -1,0 +1,21 @@
+
+
+a) T (n) = 3T (n/2) + n 
+
+ans : O(n^log3[base2])
+ 
+b) T (n) = 64T (n/8) - n^2(log n) 
+
+ans : O(n^2log(n)) 
+
+c) T (n) = 2nT (n/2) + n^n 
+
+ans : O(n^nlog(n))
+
+d) T (n) = 3T (n/3) + n/2 
+
+ans : O(nlog(n))
+
+e) T (n) = 7T (n/3) + n^2
+ 
+ans : O(n^2)
